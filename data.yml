@@ -1,0 +1,105 @@
+# Landscape2 data
+#
+# This file contains the data that will be used to generate the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+
+categories:
+  - name: Members
+    subcategories:
+      - name: Premier
+        items:
+          - name: Amazon Web Services
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+            homepage_url: https://aws.amazon.com/
+            logo: aws.svg
+          - name: Cisco
+            crunchbase: https://www.crunchbase.com/organization/cisco
+            homepage_url: https://www.cisco.com/
+            logo: cisco.svg
+          - name: Google
+            crunchbase: https://www.crunchbase.com/organization/google
+            homepage_url: https://cloud.google.com/
+            logo: google.svg
+          - name: IBM
+            crunchbase: https://www.crunchbase.com/organization/ibm
+            homepage_url: https://www.ibm.com
+            logo: ibm.svg
+          - name: NVIDIA
+            crunchbase: https://www.crunchbase.com/organization/nvidia
+            homepage_url: https://www.ibm.com
+            logo: nvidia.svg
+      - name: General
+        items:
+          - name: Global Data Quantum
+            description: We are a technology startup specialized in the field of artificial intelligence, big data and quantum computing.
+            homepage_url: https://www.globaldataquantum.com/en/
+            logo: globaldataquantum.svg
+          - name: Information Security Corporation
+            crunchbase: https://www.crunchbase.com/organization/information-security-corporation
+            homepage_url: https://infoseccorp.com
+            logo: infoseccorp.webp
+          - name: IntellectEU
+            crunchbase: https://www.crunchbase.com/organization/intellecteu
+            homepage_url: https://intellecteu.com/
+            logo: intellecteu.svg
+          - name: Keyfactor
+            crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
+            homepage_url: https://www.keyfactor.com/
+            logo: keyfactor.svg
+          - name: Kudelski IoT
+            crunchbase: https://www.crunchbase.com/organization/kudelski-iot
+            homepage_url: https://www.kudelski-iot.com
+            logo: kudelski.svg
+          - name: Meta
+            crunchbase: https://www.crunchbase.com/organization/facebook
+            homepage_url: https://www.meta.com/
+            logo: meta.svg
+          - name: QRL Foundation
+            description: Die QRL Stiftung, known as The QRL Foundation, is a Swiss non-profit organisation founded to build post-quantum secure technologies in the blockchain space
+            homepage_url: https://qrl.foundation
+            logo: qrl.svg
+          - name: QuSecure
+            crunchbase: https://www.crunchbase.com/organization/qusecure
+            homepage_url: https://qusecure.com/
+            logo: qusecure.svg
+          - name: SandboxAQ
+            crunchbase: https://www.crunchbase.com/organization/sandboxaq
+            homepage_url: https://sandboxaq.com/
+            logo: sandboxaq.svg
+          - name: Thales
+            crunchbase: https://www.crunchbase.com/organization/thales-trusted-cyber-technologies
+            homepage_url: https://www.thalestct.com
+            logo: thales.svg
+          - name: Trail of Bits
+            crunchbase: https://www.crunchbase.com/organization/trail-of-bits
+            homepage_url: https://www.trailofbits.com/
+            logo: trailofbits.svg
+      - name: Associate
+        items:
+          - name: University of Waterloo
+            crunchbase: https://www.crunchbase.com/organization/university-of-waterloo
+            homepage_url: https://uwaterloo.ca/
+            logo: uwaterloo.svg
+          - name: USP
+            crunchbase: https://www.crunchbase.com/organization/escola-superior-de-agricultura-luiz-de-queiroz-da-universidade-de-são-paulo
+            homepage_url: https://www5.usp.br/
+            logo: usp.svg
+          - name: Veilid
+            description: Veilid Foundation was formed to develop, distribute, and maintain a privacy focused communication platform and protocol for the purposes of defending human and civil rights
+            homepage_url: https://veilid.com/
+            logo: veilid.svg
+  - name: Projects
+    subcategories:
+      - name: Projects
+        items:
+          - name: Open Quantum Safe
+            description: Software for prototyping quantum-resistant cryptography
+            homepage_url: https://openquantumsafe.org/
+            logo: oqs.png
+            repo_url: https://github.com/open-quantum-safe/liboqs
+          - name: PQ Code Package
+            description: Building high-assurance implementations of post-quantum cryptography algorithms
+            homepage_url: https://github.com/pq-code-package
+            logo: pqca.png
+            repo_url: https://github.com/pq-code-package/mlkem-c-embedded

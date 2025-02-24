@@ -1,11 +1,8 @@
-# Landscape2 data
-#
-# This file contains the data that will be used to generate the landscape.
-#
-# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/data.schema.json
 
-categories:
-  - name: Members
+landscape:
+  - category:
+    name: Members
     subcategories:
       - name: Premier
         items:
@@ -89,7 +86,8 @@ categories:
             description: Veilid Foundation was formed to develop, distribute, and maintain a privacy focused communication platform and protocol for the purposes of defending human and civil rights
             homepage_url: https://veilid.com/
             logo: veilid.svg
-  - name: Projects
+  - category:
+    name: Projects
     subcategories:
       - name: Projects
         items:
